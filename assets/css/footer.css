@@ -1,0 +1,111 @@
+footer {
+    padding: 80px 80px 100px 70px;
+}
+.footer__wrapp {
+    padding: 12px;
+    max-width: 1290px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer__logo {
+    margin-bottom: 35px;
+   
+}
+.footer__logo img{
+    max-width: 240px;
+    width: 100%;
+}
+
+.footer__info-text {
+    max-width: 280px;
+    width: 100%;
+}
+.footer__info-text p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: var(--text-grey);
+}
+
+.footer__menu-block {
+    max-width: 415px;
+    width: 100%;
+
+}
+.footer-menu-hidden{
+    display: none;
+}
+.footer-menu ul {
+    max-width: 415px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu ul:first-child {
+    margin: 0 auto 37px;
+}
+.footer-menu ul:last-child {
+    max-width: 267px;
+    width: 100%;
+    margin: 0 auto;
+}
+.footer-menu ul li a {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-decoration: none;
+    color: var(--tcolor-menu-footer);
+    transition: 0.5s;
+}
+.footer-menu ul li a:hover {
+    transition: 0.5s;
+    color: var(--orange);
+}
+
+.footer__contacts-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -30px;
+
+}
+.footer__contacts-block__container{
+    display: flex;
+    flex-direction: column;
+}
+.footer-contacts__title {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--tcolor-menu-footer);
+    margin-bottom: 30px;
+}
+.footer-button-contacts {
+    margin-bottom: 23px;
+}
+.footer__button-call,
+.footer__button-email,
+.footer__button-location {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: var(--tcolor-menu-footer);
+    max-width: 210px;
+    width: 100%;
+}
+
+.footer__button-call img,
+.footer__button-email img,
+.footer__button-location img {
+    margin-right: 10px;
+}

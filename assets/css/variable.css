@@ -1,0 +1,21 @@
+:root{
+    /* colors */
+    --orange:#FF9F1C;
+    --black:#000000;
+    --white:#FFFFFF;
+    --bg-block:#000816;
+    --tcolor-numberservice: rgba(20, 20, 20, 0.5);
+    --title-pros:rgb(255,255,255,0.64);
+    --text-grey:#58595D;
+    --tcolor-menu-footer:#2E2F35;
+
+    /* font-size */
+    --title: 48px;
+    --form-title: 36px;
+    --title-block: 64px;
+    --size-pros: 36px;
+    --number-service:14px;
+
+    /* font */
+    --inter: "Inter", sans-serif;
+}
