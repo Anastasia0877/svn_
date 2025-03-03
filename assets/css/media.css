@@ -19,6 +19,13 @@
     .button-call-menu{
         display: flex;
     }
+    .header-light .button-call-under-menu{
+        display: none;
+    }
+   .header-light .button-call-menu{
+        display: flex;
+    }
+
     .menu ul li.button-call img {
         margin-right: 13px;
     }
@@ -94,12 +101,14 @@
         font-weight: 300;
     }
 
-    header .site-nav ul li .button-call-menu{
+    header .site-nav ul li .button-call-menu,
+    header .header-light .site-nav ul li .button-call-menu{
         font-size: 10px;
         background-color: var(--orange);
         color: var(--white);
         font-weight: 600;
     }
+    
     header .site-nav ul li .button-call-menu img {
         margin-right: 7px;
         max-width: 15px;
@@ -554,6 +563,11 @@ footer .footer-menu{
 }
 /* tablet  740*/
 @media screen and (max-width:739.98px) {
+/* new-page */
+#new-page .new-wrapp {
+    padding: 0 24px 0 50px;
+}
+
     /* first-block */
     .first-block {
         padding:40px 80px 80px;
@@ -609,6 +623,35 @@ footer .footer-menu{
 
 /* phone */
 @media screen and (max-width:579.98px) {
+    /* new-page */
+    #new-page .new-wrapp__title {
+        font-size: 42px;
+    }
+   #new-page .new-wrapp__text p{
+        font-size: 18px;
+    }
+   #new-page .new-title {
+        padding: 157px 0;
+        font-size: 36px;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 2%;
+    color: var(--white);
+    position: relative;
+    margin-bottom: 71px;
+    }
+    #new-page .new-title__main-title{
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+   #new-page .new-page-arrow a img{
+        bottom: 30px;
+
+      }
+      #new-page .new-wrapp{
+        margin-bottom: 20px;
+    }
 
     .back-to-top {
         width: 50px;

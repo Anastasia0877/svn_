@@ -1,0 +1,104 @@
+.new-container {
+    font-family: var(--inter);
+}
+.new-title {
+    padding: 357px 0;
+    background: url("../img/bg-new-page.png") center/cover no-repeat;
+    width: 100%;
+    text-align: center;
+    font-family: var(--inter);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 2%;
+    color: var(--white);
+    position: relative;
+    margin-bottom: 71px;
+   
+}
+.new-title::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--black);
+    opacity: 0.6;
+    z-index: 2;
+}
+.new-title .new-title__main-title {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 99;
+
+}
+.new-wrapp {
+    padding: 0 24px 0 120px;
+}
+.new-page-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 98;
+}
+.new-page-arrow a img {
+    padding: 12px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 3px solid var(--white);
+    border-radius: 100px;
+    transform: rotate(90deg);
+    animation: scroll-down 2s infinite;
+}
+@keyframes scroll-down {
+    0% {
+        transform: translateY(0) rotate(90deg);
+    }
+    50% {
+        transform: translateY(20px) rotate(90deg);
+    }
+    100% {
+        transform: translateY(0) rotate(90deg);
+    }
+}
+.new-page-arrow a img:hover {
+    animation-play-state: paused;
+}
+
+.new-page-arrow a img:active:before {
+    transform: translateY(700px);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+}
+.new-wrapp{
+    margin-bottom: 110px;
+}
+
+.new-wrapp__title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+.new-container .date {
+    margin-bottom: 30px;
+
+}
+.new-wrapp__text {
+    max-width: 1000px;
+    width: 100%;
+}
+.new-wrapp__text p {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 160%;
+    letter-spacing: 0;
+}

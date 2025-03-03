@@ -67,3 +67,30 @@ a {
 .button-call-under-menu{
     display: flex;
 }
+
+
+/*header-light */
+.header-light .site-nav{
+    background-color: var(--white);
+}
+
+.header-light .menu ul li a {
+    color: var(--black);
+}
+.header-light .button-call {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 12px 32px;
+    border: 1px solid var(--orange);
+    border-radius: 8px;
+    color: var(--black);
+}
+.header-light .button-call:hover{
+    background-color: var(--orange);
+    transition: 0.5s;
+
+}
+.header-light .button-call-menu{
+    display: none;
+}
