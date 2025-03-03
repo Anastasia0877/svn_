@@ -313,7 +313,7 @@ footer .footer-menu{
     }
     .fb-text__subtitle {
         margin-bottom: 30px;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .pros {
@@ -573,11 +573,11 @@ footer .footer-menu{
         padding:40px 80px 80px;
     }
     .fb-text__title {
-        font-size: 34px;    
+        font-size: 36px;    
     }
     .fb-text__subtitle {
         max-width: 550px;
-        font-size: 15px;
+        font-size: 17px;
     }
     .pros-item__title {
         margin-bottom: 6px;
@@ -672,11 +672,11 @@ footer .footer-menu{
         padding:30px 50px 50px;
     }
     .fb-text__title {
-        font-size: 22px;    
+        font-size: 24px;    
     }
     .fb-text__subtitle {
         max-width: 400px;
-        font-size: 13px;
+        font-size: 15px;
     }
     .pros {
         flex-direction: column;
@@ -718,11 +718,14 @@ font-size: 14px;
 #blog .blog__wrapp,
 #service .service__wrapp,
 #about-us .about-us__wrapp,
-#trust .trust__wrapp,
+
 #blog .blog__wrapp.wrapp,
 #certificate .certificate__wrapp.wrapp
 {
     padding: 40px 24px 40px 24px;
+}
+#trust .trust__wrapp{
+    padding: 40px 0 40px 0;
 }
 
 #why-us::after,
