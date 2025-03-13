@@ -46,7 +46,7 @@ $(document).ready(function(){
 
   document.addEventListener("DOMContentLoaded", () => {
     const track = document.querySelector(".trust-line");
-    track.innerHTML += " " + track.innerHTML + " " + track.innerHTML + " " + track.innerHTML; // 4 цикла
+    track.innerHTML += " " + track.innerHTML + " " + track.innerHTML + " " + track.innerHTML ; // 4 цикла
     // Дублируем контент для бесконечной прокрутки
   });
 

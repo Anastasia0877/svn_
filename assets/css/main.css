@@ -40,16 +40,16 @@ a {
 }
 .fb-text__title {
     margin-bottom: 16px;
-    max-width: 591px;
+    max-width: 791px;
     width: 100%;
-    font-size: 64px;
+    font-size: 42px;
     font-weight: 500;
     line-height: 120%;
 
 }
 .fb-text__subtitle {
     margin-bottom: 40px;
-    max-width: 670px;
+    max-width: 700px;
     width: 100%;
     font-size: 20px;
     font-weight: 400;
@@ -235,12 +235,14 @@ a {
 }
 .service-item__img img {
     max-width: 377px;
+    height: 100%;
     width: 100%;
     border-radius: 15px;
+    object-fit: cover;
 }
 .service-item__title {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .service-item__number {
     margin-right: 3px;
@@ -251,6 +253,8 @@ a {
     letter-spacing: 0;
 }
 .service-item__name {
+    min-height: 48px;
+    height: 100%;
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -493,7 +497,7 @@ a {
         transform: translateX(0);
     }
     to {
-        transform: translateX(-50%);
+        transform: translateX(-30%);
     }
 }
 /* Остановка при наведении */
